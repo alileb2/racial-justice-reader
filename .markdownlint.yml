@@ -1,0 +1,30 @@
+# Markdownlint configuration for the Racial Justice Reader
+# See https://github.com/DavidAnson/markdownlint for rules
+
+# Allow long lines (academic texts often have long paragraphs)
+MD013: false
+
+# Allow multiple top-level headings in same file (each module is a single file)
+MD025: false
+
+# Allow inline HTML (for complex formatting if needed)
+MD033: false
+
+# Allow multiple spaces for indentation (some lists may need alignment)
+MD007:
+  indent: 2
+
+# Allow trailing punctuation in headings
+MD026: false
+
+# Allow bare URLs (links are often provided as raw URLs)
+MD034: false
+
+# Allow duplicate headings (different entries may have same heading level)
+MD024: false
+
+# Allow code blocks without language specification
+MD040: false
+
+# Enable other sensible defaults
+default: true
